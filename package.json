@@ -1,0 +1,65 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "start": "next start"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "plugins": [
+      "prettier-plugin-organize-imports",
+      "prettier-plugin-tailwindcss"
+    ],
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended",
+      "next",
+      "next/core-web-vitals",
+      "plugin:tailwindcss/recommended",
+      "prettier"
+    ],
+    "root": true
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-tailwindcss": "latest",
+    "postcss": "latest",
+    "prettier-plugin-organize-imports": "latest",
+    "prettier-plugin-tailwindcss": "latest",
+    "tailwindcss": "insiders",
+    "typescript": "latest"
+  },
+  "postcss": {
+    "plugins": {
+      "tailwindcss": {}
+    }
+  }
+}
