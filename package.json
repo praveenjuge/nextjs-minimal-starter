@@ -35,27 +35,28 @@
     "root": true
   },
   "dependencies": {
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
+    "geist": "1.2.2",
+    "next": "14.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "@typescript-eslint/eslint-plugin": "latest",
-    "@typescript-eslint/parser": "latest",
-    "autoprefixer": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "latest",
-    "eslint-config-prettier": "latest",
-    "eslint-plugin-react": "latest",
-    "eslint-plugin-tailwindcss": "latest",
-    "postcss": "latest",
-    "prettier-plugin-organize-imports": "latest",
-    "prettier-plugin-tailwindcss": "latest",
+    "@types/node": "20.11.19",
+    "@types/react": "18.2.57",
+    "@types/react-dom": "18.2.19",
+    "@typescript-eslint/eslint-plugin": "7.0.2",
+    "@typescript-eslint/parser": "7.0.2",
+    "autoprefixer": "10.4.17",
+    "eslint": "8.56.0",
+    "eslint-config-next": "14.1.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-tailwindcss": "3.14.2",
+    "postcss": "8.4.35",
+    "prettier-plugin-organize-imports": "3.2.4",
+    "prettier-plugin-tailwindcss": "0.5.11",
     "tailwindcss": "insiders",
-    "typescript": "latest"
+    "typescript": "5.3.3"
   },
   "postcss": {
     "plugins": {
